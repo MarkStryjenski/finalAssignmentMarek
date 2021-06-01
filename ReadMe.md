@@ -20,47 +20,49 @@ Installation Process:
 
 7. If your port is different then 27017 go to: src\main\resources\application.properties and change spring.data.mongodb.port=27017 to spring.data.mongodb.port=Your port number
 
-8. Click the highlighted button and create new Database. Name it **Happiness**
+8. Click the highlighted button and create new Database. Name it **Happiness** and collection name Covid
 
    ![mongoDbDatabase.png](imgs\mongoDbDatabase.png)
 
-9. Create collection called Covid
+   
 
-10. Create collection called InternetUsage
+   
 
-11. Create collection called WorldHappiness
+9. Click Plus symbol next to Happiness and create collection called InternetUsage
 
-12. Inside src\main\java\com.hapiness.dataprocessing\usedDataSets folder you will find three different data sets. Two of them will be in csv format and one in json. In the following steps you will import datasets to the MongoDb
+10. Create collection called WorldHappiness
 
-13. Go to Happiness -> Covid and click on ADD DATA
+11. Inside src\main\java\com.hapiness.dataprocessing\usedDataSets folder you will find three different data sets. Two of them will be in csv format and one in json. In the following steps you will import datasets to the MongoDb
 
-14. Choose Import File
+12. Go to Happiness -> Covid and click on ADD DATA
 
-15. Select Json and click on browse and select Covid.json
+13. Choose Import File
 
-16. Click Import
+14. Select Json and click on browse and select Covid.json
 
-17. Go to InternetUsage Collection and click on ADD DATA
+15. Click Import
 
-18. Choose Import File
+16. Go to InternetUsage Collection and click on ADD DATA
 
-19. Select this time csv and click on browse and select List of Countries by number of Internet Users.csv
+17. Choose Import File
 
-20. Click Import
+18. Select this time csv and click on browse and select List of Countries by number of Internet Users.csv
 
-21. Go to WorldHappiness Collection and click on Add DATA
+19. Click Import
 
-22. Choose Import File
+20. Go to WorldHappiness Collection and click on Add DATA
 
-23. Select this time csv and click on browse and World-Happiness-2020.csv
+21. Choose Import File
 
-24. Click Import
+22. Select this time csv and click on browse and World-Happiness-2020.csv
 
-25. Go to src\main\java\com.hapiness.dataprocessing\DataProcessingApplication.java
+23. Click Import
 
-26. Run the DataProcessingApplication
+24. Go to src\main\java\com.hapiness.dataprocessing\DataProcessingApplication.java
 
-27. You can make now Api calls in the postman 
+25. Run the DataProcessingApplication
+
+26. You can make now Api calls in the postman 
 
 **Important!!!!!!!!**
 
