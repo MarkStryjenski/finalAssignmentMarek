@@ -58,7 +58,7 @@ Installation Process:
 
 25. Go to src\main\java\com.hapiness.dataprocessing\DataProcessingApplication.java
 
-26. Run the main method
+26. Run the DataProcessingApplication
 
 27. You can make now Api calls in the postman 
 
