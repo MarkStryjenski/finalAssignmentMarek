@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<covid>
+    <covid19>
+        <country>Afghanistan</country>
+        <covid19_first_date>2020-02-24 22:00:00</covid19_first_date>
+        <covid_confirmed>1828</covid_confirmed>
+        <covid_deaths>58</covid_deaths>
+        <covid_recovered>228</covid_recovered>
+        <flu_death_rate_per_10000>64.21</flu_death_rate_per_10000>
+        <h1n1_Cases_confirmed>853.0</h1n1_Cases_confirmed>
+        <h1n1_Cases_underestimate>0.0</h1n1_Cases_underestimate>
+        <h1n1_Deaths_confirmed>17.0</h1n1_Deaths_confirmed>
+    </covid19>
+</covid>

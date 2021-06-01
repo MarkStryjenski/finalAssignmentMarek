@@ -1,0 +1,169 @@
+package com.hapiness.dataprocessing.controller;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.PropertyNamingStrategy;
+import com.hapiness.dataprocessing.classes.InternetUsage;
+import com.hapiness.dataprocessing.repositories.InternetUsageRepository;
+import com.networknt.schema.JsonSchema;
+import com.networknt.schema.JsonSchemaFactory;
+import com.networknt.schema.SpecVersion;
+import com.networknt.schema.ValidationMessage;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.List;
+import java.util.Set;
+
+@RestController
+@RequestMapping("/internetUsage")
+public class InternetUsageController {
+    private InternetUsageRepository internetUsageRepository;
+
+    public InternetUsageController(InternetUsageRepository internetUsageRepository) {
+        this.internetUsageRepository = internetUsageRepository;
+    }
+
+    @GetMapping("/all")
+    public List<InternetUsage> getAll() {
+        List<InternetUsage> internetUsages = this.internetUsageRepository.findAll();
+
+        return internetUsages;
+    }
+
+    @GetMapping("/country/{countryOrArea}")
+    public InternetUsage getCountryByCountryOrAreaName(@PathVariable("countryOrArea") String countryOrArea) {
+        InternetUsage internetUsage = this.internetUsageRepository.findCountry(countryOrArea);
+
+        return internetUsage;
+    }
+
+//    @PostMapping(consumes = {MediaType.APPLICATION_XML_VALUE,MediaType.APPLICATION_JSON_VALUE},
+//            produces = {MediaType.APPLICATION_XML_VALUE,MediaType.APPLICATION_JSON_VALUE})
+//    public ResponseEntity<String> insert(@Valid @RequestBody InternetUsage internetUsage) {
+//
+//        InternetUsage existingCountry = this.internetUsageRepository.findCountry(internetUsage.getCountryOrArea());
+//        if (existingCountry == null) {
+//            this.internetUsageRepository.insert(internetUsage);
+//
+//            return ResponseEntity.ok(internetUsage.getCountryOrArea() + ": Inserted successfully");
+//        }
+//        return new ResponseEntity<>("Country Already exists in collectionz", HttpStatus.BAD_REQUEST);
+//
+//    }
+
+    @PostMapping(consumes = {MediaType.APPLICATION_JSON_VALUE},
+            produces = {MediaType.APPLICATION_JSON_VALUE})
+    public ResponseEntity<String> insert(@Valid @RequestBody String requestStr) throws JsonProcessingException, FileNotFoundException {
+
+        File initialFile = new File("C:\\Users\\Marek\\Desktop\\DataProcessing\\finalAssignment\\src\\main\\java\\com\\hapiness\\dataprocessing\\jsonSchema\\internetUsageSchema.json");
+        InputStream schemaAsStream = new FileInputStream(initialFile);
+        JsonSchema schema = JsonSchemaFactory.getInstance(SpecVersion.VersionFlag.V7).getSchema(schemaAsStream);
+
+
+        ObjectMapper om = new ObjectMapper();
+//        om.setPropertyNamingStrategy(PropertyNamingStrategy.I)
+        JsonNode jsonNode = om.readTree(requestStr);
+
+        Set<ValidationMessage> errors = schema.validate(jsonNode);
+        String errorsCombined = "";
+        for (ValidationMessage error : errors) {
+            System.out.println(error);
+            errorsCombined += error.toString() + "\n";
+        }
+        System.out.println(errorsCombined);
+        if (errors.size() > 0)
+            return new ResponseEntity<>(errorsCombined, HttpStatus.BAD_REQUEST);
+//            throw new RuntimeException("Please fix json " + errorsCombined);
+
+        InternetUsage internetUsage = om.readValue(requestStr, InternetUsage.class);
+        this.internetUsageRepository.insert(internetUsage);
+        return ResponseEntity.ok(internetUsage.getCountryOrArea() + ": Inserted successfully");
+
+    }
+
+//    @PostMapping(consumes = {MediaType.APPLICATION_JSON_VALUE},
+//            produces = {MediaType.APPLICATION_JSON_VALUE})
+//    public InternetUsage insert(@Valid @RequestBody String requestStr) throws JsonProcessingException, FileNotFoundException {
+//
+//        File initialFile = new File("C:\\Users\\Marek\\Desktop\\DataProcessing\\finalAssignment\\src\\main\\java\\com\\hapiness\\dataprocessing\\jsonSchema\\internetUsageSchema.json");
+//        InputStream schemaAsStream = new FileInputStream(initialFile);
+//        JsonSchema schema = JsonSchemaFactory.getInstance(SpecVersion.VersionFlag.V7).getSchema(schemaAsStream);
+//
+//
+//        ObjectMapper om = new ObjectMapper();
+////        om.setPropertyNamingStrategy(PropertyNamingStrategy.I)
+//        JsonNode jsonNode = om.readTree(requestStr);
+//
+//        Set<ValidationMessage> errors = schema.validate(jsonNode);
+//        String errorsCombined = "";
+//        for (ValidationMessage error : errors) {
+//            System.out.println(error);
+//            errorsCombined += error.toString() + "\n";
+//        }
+//
+//        if (errors.size() > 0)
+//            throw new RuntimeException("Please fix json " + errorsCombined);
+//
+//        InternetUsage request = om.readValue(requestStr, InternetUsage.class);
+//        this.internetUsageRepository.insert(request);
+//        return request;
+//
+//    }
+
+    @PutMapping("/{countryOrArea}")
+    public ResponseEntity update(@RequestBody InternetUsage internetUsage, @PathVariable("countryOrArea") String countryOrArea) {
+        //If the object we pass has already existing Id we update the object with save method
+        //If there is no object in Collection, the insert method will be called
+
+        InternetUsage existingCountry = this.internetUsageRepository.findCountry(countryOrArea);
+
+        this.internetUsageRepository.delete(existingCountry);
+        this.internetUsageRepository.save(internetUsage);
+//        this.internetUsageRepository.(internetUsage);
+
+//        this.internetUsageRepository.save(internetUsage);
+        return ResponseEntity.ok(internetUsage.getCountryOrArea() + ": Update successfully");
+
+    }
+
+    @DeleteMapping("/{countryName}")
+    public ResponseEntity delete(@PathVariable("countryName") String countryName) {
+        InternetUsage internetUsage = this.internetUsageRepository.findCountry(countryName);
+
+        this.internetUsageRepository.delete(internetUsage);
+        return ResponseEntity.ok("Delete successful");
+    }
+        @PostMapping(consumes = {MediaType.APPLICATION_XML_VALUE},
+                produces = {MediaType.APPLICATION_XML_VALUE})
+        public InternetUsage insertXml(@Valid @RequestBody String requestStr) throws IOException, XMLStreamException, SAXException, JAXBException {
+            File initialFile = new File("C:\\Users\\Marek\\Desktop\\DataProcessing\\finalAssignment\\src\\main\\java\\com\\hapiness\\dataprocessing\\xml\\internetUsage.xml");
+            File xsdFile = new File("C:\\Users\\Marek\\Desktop\\DataProcessing\\finalAssignment\\src\\main\\java\\com\\hapiness\\dataprocessing\\xsd\\internetUsageSchema.xsd");
+
+            InputStream xmlAsStream = new FileInputStream(initialFile);
+            XMLInputFactory xmlInputFactory = XMLInputFactory.newFactory();
+            XMLStreamReader xmlStreamReader = xmlInputFactory.createXMLStreamReader(xmlAsStream);
+
+            XmlMapper xmlMap = new XmlMapper();
+            InternetUsage internetUsage = xmlMap.readValue(xmlStreamReader, InternetUsage.class);
+
+    //        SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+    //        Schema schema = factory.newSchema(new StreamSource(xsdFile));
+    //
+    //        JAXBContext ctx= JAXBContext.newInstance(InternetUsage.class);
+    //        Unmarshaller unmarshaller = ctx.createUnmarshaller();
+    //        unmarshaller.setSchema(schema);
+
+
+            return internetUsage;
+        }
+}

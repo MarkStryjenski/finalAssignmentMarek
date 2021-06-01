@@ -1,0 +1,23 @@
+
+{
+  "countryName": "China",
+  "regionalIndicator": "East Asia",
+  "ladderScore": 5.123899937,
+  "standardErrorOfLadderScore": 0.025901664,
+  "upperWhisker": 5.174667358,
+  "lowerWhisker": 5.073132515,
+  "loggedGDPPerCapita": 9.688568115,
+  "socialSupport": 0.798760593,
+  "healthyLifeExpectancy": 69.2891922,
+  "freedomToMakeLifeChoices": 0.898517907,
+  "generosity": -0.18142575,
+  "perceptionsOfCorruption": 0.7539711,
+  "ladderScoreInDystopia": 1.972316742,
+  "explainedByLogGDPPerCapita": 0.990533412,
+  "explainedBySocialSupport": 1.132080674,
+  "explainedByHealthyLifeExpectancy": 0.867248535,
+  "explainedByFreedomToMakeLifeChoices": 0.601605117,
+  "explainedByGenerosity": 0.079021044,
+  "explainedByPerceptionsOfCorruption": 0.117255554,
+  "dystopiaResidual": 1.336181879
+}

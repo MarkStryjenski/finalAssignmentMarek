@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchemaHappiness"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="WorldHappinessWorld">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="worldHappiness" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="countryName" type="xs:string"/>
+                            <xs:element name="dystopiaResidual" type="xs:decimal"/>
+                            <xs:element name="explainedByFreedomToMakeLifeChoices" type="xs:decimal"/>
+                            <xs:element name="explainedByGenerosity" type="xs:decimal"/>
+                            <xs:element name="explainedByHealthyLifeExpectancy" type="xs:decimal"/>
+                            <xs:element name="explainedByLogGDPPerCapita" type="xs:decimal"/>
+                            <xs:element name="explainedByPerceptionsOfCorruption" type="xs:decimal"/>
+                            <xs:element name="explainedBySocialSupport" type="xs:decimal"/>
+                            <xs:element name="freedomToMakeLifeChoices" type="xs:decimal"/>
+                            <xs:element name="generosity" type="xs:decimal"/>
+                            <xs:element name="healthyLifeExpectancy" type="xs:decimal"/>
+                            <xs:element name="ladderScore" type="xs:decimal"/>
+                            <xs:element name="ladderScoreInDystopia" type="xs:decimal"/>
+                            <xs:element name="loggedGDPPerCapita" type="xs:decimal"/>
+                            <xs:element name="lowerWhisker" type="xs:decimal"/>
+                            <xs:element name="perceptionsOfCorruption" type="xs:decimal"/>
+                            <xs:element name="regionalIndicator" type="xs:string"/>
+                            <xs:element name="socialSupport" type="xs:decimal"/>
+                            <xs:element name="standardErrorOfLadderScore" type="xs:decimal"/>
+                            <xs:element name="upperWhisker" type="xs:decimal"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

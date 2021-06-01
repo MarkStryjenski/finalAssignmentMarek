@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JSON Schema for World internet usage 2020",
+  "description": "Usage of internet around the world.",
+  "type": "object",
+  "properties": {
+    "countryOrArea": {
+      "type": "string",
+      "description": "CountryOrArea"
+    },
+    "internetUsers": {
+      "type": "integer",
+      "description": "How many people use internet in the country/area",
+      "minimum": 0
+    },
+    "population": {
+      "type": "integer",
+      "description": "The overall population of the country/area",
+      "minimum": 0
+    },
+    "worldRank": {
+      "type": "integer",
+      "description": "This column indicates the rank of countries by population",
+      "minimum": 0
+
+    },
+    "percentage": {
+      "type": "number",
+      "description": "This column indicates the percentage of internet users. Allowed only 2 demical places, no more.",
+      "minimum": 0,
+      "maximum": 100,
+      "multipleOf": 0.01
+    },
+    "percentageRank": {
+      "type": "integer",
+      "description": "This column indicates the rank of the internet users in the country",
+      "minimum": 0
+    },
+    "version": {
+      "enum": [
+        "1.0",
+        "1.1"
+      ]
+    }
+  },
+  "required": [
+    "countryOrArea",
+    "internetUsers",
+    "population",
+    "worldRank",
+    "percentage",
+    "percentageRank"
+  ]
+}

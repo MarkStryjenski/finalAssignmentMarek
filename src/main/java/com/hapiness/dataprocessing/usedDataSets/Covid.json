@@ -1,0 +1,2178 @@
+[{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac594"
+  },
+  "country": "Afghanistan",
+  "covid_confirmed": "1828",
+  "covid_deaths": "58",
+  "covid_recovered": "228",
+  "covid19_first_date": "2020-02-24 22:00:00",
+  "flu_death_rate_per_10000": "64.21",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "853.0",
+  "h1n1_Deaths_confirmed": "17.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac595"
+  },
+  "country": "Albania",
+  "covid_confirmed": "750",
+  "covid_deaths": "30",
+  "covid_recovered": "431",
+  "covid19_first_date": "2020-03-09 22:00:00",
+  "flu_death_rate_per_10000": "11.29",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "426.0",
+  "h1n1_Deaths_confirmed": "12.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac596"
+  },
+  "country": "Algeria",
+  "covid_confirmed": "3649",
+  "covid_deaths": "437",
+  "covid_recovered": "1651",
+  "covid19_first_date": "2020-02-25 22:00:00",
+  "flu_death_rate_per_10000": "27.82",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "916.0",
+  "h1n1_Deaths_confirmed": "57.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac597"
+  },
+  "country": "Andorra",
+  "covid_confirmed": "743",
+  "covid_deaths": "41",
+  "covid_recovered": "398",
+  "covid19_first_date": "2020-03-02 22:00:00",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac598"
+  },
+  "country": "Angola",
+  "covid_confirmed": "27",
+  "covid_deaths": "2",
+  "covid_recovered": "6",
+  "covid19_first_date": "2020-03-20 22:00:00",
+  "flu_death_rate_per_10000": "176.7",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "37.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac599"
+  },
+  "country": "Antigua and Barbuda",
+  "covid_confirmed": "24",
+  "covid_deaths": "3",
+  "covid_recovered": "11",
+  "covid19_first_date": "2020-03-13 22:00:00",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "75.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac59a"
+  },
+  "country": "Argentina",
+  "covid_confirmed": "4127",
+  "covid_deaths": "207",
+  "covid_recovered": "1162",
+  "covid19_first_date": "2020-03-03 22:00:00",
+  "flu_death_rate_per_10000": "52.66",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "11458.0",
+  "h1n1_Deaths_confirmed": "626.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac59b"
+  },
+  "country": "Armenia",
+  "covid_confirmed": "1867",
+  "covid_deaths": "30",
+  "covid_recovered": "866",
+  "covid19_first_date": "2020-03-01 22:00:00",
+  "flu_death_rate_per_10000": "9.9",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "119.0",
+  "h1n1_Deaths_confirmed": "3.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac59c"
+  },
+  "country": "Australia",
+  "covid_confirmed": "6744",
+  "covid_deaths": "89",
+  "covid_recovered": "5665",
+  "covid19_first_date": "2020-01-23 12:00:00",
+  "flu_death_rate_per_10000": "9.68",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "37484.0",
+  "h1n1_Deaths_confirmed": "187.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac59d"
+  },
+  "country": "Austria",
+  "covid_confirmed": "15357",
+  "covid_deaths": "569",
+  "covid_recovered": "12580",
+  "covid19_first_date": "2020-02-25 22:00:00",
+  "flu_death_rate_per_10000": "4.27",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "964.0",
+  "h1n1_Deaths_confirmed": "40.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac59e"
+  },
+  "country": "Azerbaijan",
+  "covid_confirmed": "1717",
+  "covid_deaths": "22",
+  "covid_recovered": "1221",
+  "covid19_first_date": "2020-02-28 22:00:00",
+  "flu_death_rate_per_10000": "19.02",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "14.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac59f"
+  },
+  "country": "Bahamas",
+  "covid_confirmed": "80",
+  "covid_deaths": "11",
+  "covid_recovered": "23",
+  "covid19_first_date": "2020-03-22 22:00:00",
+  "flu_death_rate_per_10000": "26.64",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "29.0",
+  "h1n1_Deaths_confirmed": "4.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5a0"
+  },
+  "country": "Bahrain",
+  "covid_confirmed": "2811",
+  "covid_deaths": "8",
+  "covid_recovered": "1310",
+  "covid19_first_date": "2020-02-24 22:00:00",
+  "flu_death_rate_per_10000": "21.41",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1325.0",
+  "h1n1_Deaths_confirmed": "8.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5a1"
+  },
+  "country": "Bangladesh",
+  "covid_confirmed": "6462",
+  "covid_deaths": "155",
+  "covid_recovered": "139",
+  "covid19_first_date": "2020-03-08 22:00:00",
+  "flu_death_rate_per_10000": "21.99",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1015.0",
+  "h1n1_Deaths_confirmed": "7.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5a2"
+  },
+  "country": "Barbados",
+  "covid_confirmed": "80",
+  "covid_deaths": "6",
+  "covid_recovered": "39",
+  "covid19_first_date": "2020-03-17 22:00:00",
+  "flu_death_rate_per_10000": "62.8",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "154.0",
+  "h1n1_Deaths_confirmed": "3.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5a3"
+  },
+  "country": "Belarus",
+  "covid_confirmed": "12208",
+  "covid_deaths": "79",
+  "covid_recovered": "1993",
+  "covid19_first_date": "2020-02-28 22:00:00",
+  "flu_death_rate_per_10000": "5.19",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "102.0",
+  "h1n1_Deaths_confirmed": "88.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5a4"
+  },
+  "country": "Belgium",
+  "covid_confirmed": "47334",
+  "covid_deaths": "7331",
+  "covid_recovered": "10943",
+  "covid19_first_date": "2020-02-04 22:00:00",
+  "flu_death_rate_per_10000": "24.22",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "76973.0",
+  "h1n1_Deaths_confirmed": "19.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5a5"
+  },
+  "country": "Belize",
+  "covid_confirmed": "18",
+  "covid_deaths": "2",
+  "covid_recovered": "9",
+  "covid19_first_date": "2020-03-23 22:00:00",
+  "flu_death_rate_per_10000": "58.8",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "49.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5a6"
+  },
+  "country": "Benin",
+  "covid_confirmed": "64",
+  "covid_deaths": "1",
+  "covid_recovered": "33",
+  "covid19_first_date": "2020-03-16 22:00:00",
+  "flu_death_rate_per_10000": "159.6"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5a7"
+  },
+  "country": "Bhutan",
+  "covid_confirmed": "7",
+  "covid_deaths": "0",
+  "covid_recovered": "5",
+  "covid19_first_date": "2020-03-06 22:00:00",
+  "flu_death_rate_per_10000": "44.36",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "91.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5a8"
+  },
+  "country": "Bolivia",
+  "covid_confirmed": "1014",
+  "covid_deaths": "53",
+  "covid_recovered": "98",
+  "covid19_first_date": "2020-03-11 22:00:00",
+  "flu_death_rate_per_10000": "75.86",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "2310.0",
+  "h1n1_Deaths_confirmed": "59.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5a9"
+  },
+  "country": "Bosnia and Herzegovina",
+  "covid_confirmed": "1585",
+  "covid_deaths": "63",
+  "covid_recovered": "682",
+  "covid19_first_date": "2020-03-05 22:00:00",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "714.0",
+  "h1n1_Deaths_confirmed": "13.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5aa"
+  },
+  "country": "Brazil",
+  "covid_confirmed": "73235",
+  "covid_deaths": "5083",
+  "covid_recovered": "32544",
+  "covid19_first_date": "2020-01-23 12:00:00",
+  "flu_death_rate_per_10000": "42.96",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "58178.0",
+  "h1n1_Deaths_confirmed": "2135.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ab"
+  },
+  "country": "Brunei",
+  "covid_confirmed": "138",
+  "covid_deaths": "1",
+  "covid_recovered": "124",
+  "covid19_first_date": "2020-03-09 22:00:00",
+  "flu_death_rate_per_10000": "26.19",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "971.0",
+  "h1n1_Deaths_confirmed": "2.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ac"
+  },
+  "country": "Bulgaria",
+  "covid_confirmed": "1399",
+  "covid_deaths": "58",
+  "covid_recovered": "222",
+  "covid19_first_date": "2020-03-08 22:00:00",
+  "flu_death_rate_per_10000": "14.56",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "766.0",
+  "h1n1_Deaths_confirmed": "40.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ad"
+  },
+  "country": "Burkina Faso",
+  "covid_confirmed": "638",
+  "covid_deaths": "42",
+  "covid_recovered": "476",
+  "covid19_first_date": "2020-03-10 22:00:00",
+  "flu_death_rate_per_10000": "149.88"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ae"
+  },
+  "country": "Cabo Verde",
+  "covid_confirmed": "114",
+  "covid_deaths": "1",
+  "covid_recovered": "2",
+  "covid19_first_date": "2020-03-20 22:00:00",
+  "flu_death_rate_per_10000": "83.78",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "118.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5af"
+  },
+  "country": "Cambodia",
+  "covid_confirmed": "122",
+  "covid_deaths": "0",
+  "covid_recovered": "119",
+  "covid19_first_date": "2020-01-27 20:30:00",
+  "flu_death_rate_per_10000": "57.85",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "531.0",
+  "h1n1_Deaths_confirmed": "6.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5b0"
+  },
+  "country": "Cameroon",
+  "covid_confirmed": "1705",
+  "covid_deaths": "58",
+  "covid_recovered": "915",
+  "covid19_first_date": "2020-03-06 22:00:00",
+  "flu_death_rate_per_10000": "144.06",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "4.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5b1"
+  },
+  "country": "Canada",
+  "covid_confirmed": "51150",
+  "covid_deaths": "2983",
+  "covid_recovered": "19231",
+  "covid19_first_date": "2020-01-26 23:00:00",
+  "flu_death_rate_per_10000": "9.34",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "25828.0",
+  "h1n1_Deaths_confirmed": "429.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5b2"
+  },
+  "country": "Central African Republic",
+  "covid_confirmed": "50",
+  "covid_deaths": "0",
+  "covid_recovered": "10",
+  "covid19_first_date": "2020-03-15 22:00:00"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5b3"
+  },
+  "country": "Chad",
+  "covid_confirmed": "52",
+  "covid_deaths": "2",
+  "covid_recovered": "19",
+  "covid19_first_date": "2020-03-19 22:00:00",
+  "flu_death_rate_per_10000": "204.33",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5b4"
+  },
+  "country": "Chile",
+  "covid_confirmed": "14365",
+  "covid_deaths": "207",
+  "covid_recovered": "7710",
+  "covid19_first_date": "2020-03-03 22:00:00",
+  "flu_death_rate_per_10000": "20.32",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "12258.0",
+  "h1n1_Deaths_confirmed": "156.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5b5"
+  },
+  "country": "China",
+  "covid_confirmed": "83940",
+  "covid_deaths": "4637",
+  "covid_recovered": "78422",
+  "covid19_first_date": "2020-01-22 12:00:00",
+  "flu_death_rate_per_10000": "14.69",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "120940.0",
+  "h1n1_Deaths_confirmed": "800.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5b6"
+  },
+  "country": "Colombia",
+  "covid_confirmed": "5949",
+  "covid_deaths": "269",
+  "covid_recovered": "1268",
+  "covid19_first_date": "2020-03-06 22:00:00",
+  "flu_death_rate_per_10000": "20.91",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "4310.0",
+  "h1n1_Deaths_confirmed": "272.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5b7"
+  },
+  "country": "Congo (Brazzaville)",
+  "covid_confirmed": "207",
+  "covid_deaths": "8",
+  "covid_recovered": "19",
+  "covid19_first_date": "2020-03-15 22:00:00"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5b8"
+  },
+  "country": "Congo (Kinshasa)",
+  "covid_confirmed": "471",
+  "covid_deaths": "30",
+  "covid_recovered": "56",
+  "covid19_first_date": "2020-03-11 22:00:00"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5b9"
+  },
+  "country": "Costa Rica",
+  "covid_confirmed": "705",
+  "covid_deaths": "6",
+  "covid_recovered": "306",
+  "covid19_first_date": "2020-03-06 22:00:00",
+  "flu_death_rate_per_10000": "13.81",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "1867.0",
+  "h1n1_Deaths_confirmed": "67.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ba"
+  },
+  "country": "Cote d'Ivoire",
+  "covid_confirmed": "1183",
+  "covid_deaths": "14",
+  "covid_recovered": "525",
+  "covid19_first_date": "2020-03-11 22:00:00",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "9.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5bb"
+  },
+  "country": "Croatia",
+  "covid_confirmed": "2047",
+  "covid_deaths": "63",
+  "covid_recovered": "1232",
+  "covid19_first_date": "2020-02-25 22:00:00",
+  "flu_death_rate_per_10000": "7.08",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "50255.0",
+  "h1n1_Deaths_confirmed": "26.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5bc"
+  },
+  "country": "Cuba",
+  "covid_confirmed": "1437",
+  "covid_deaths": "58",
+  "covid_recovered": "575",
+  "covid19_first_date": "2020-03-12 22:00:00",
+  "flu_death_rate_per_10000": "31.07",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "973.0",
+  "h1n1_Deaths_confirmed": "69.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5bd"
+  },
+  "country": "Cyprus",
+  "covid_confirmed": "837",
+  "covid_deaths": "15",
+  "covid_recovered": "148",
+  "covid19_first_date": "2020-03-09 22:00:00",
+  "flu_death_rate_per_10000": "8.19",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "297.0",
+  "h1n1_Deaths_confirmed": "10.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5be"
+  },
+  "country": "Czechia",
+  "covid_confirmed": "7504",
+  "covid_deaths": "227",
+  "covid_recovered": "2948",
+  "covid19_first_date": "2020-03-01 22:00:00",
+  "flu_death_rate_per_10000": "15.51",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "2445.0",
+  "h1n1_Deaths_confirmed": "102.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5bf"
+  },
+  "country": "Denmark",
+  "covid_confirmed": "9049",
+  "covid_deaths": "434",
+  "covid_recovered": "6313",
+  "covid19_first_date": "2020-02-27 22:00:00",
+  "flu_death_rate_per_10000": "17.12",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "651.0",
+  "h1n1_Deaths_confirmed": "33.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5c0"
+  },
+  "country": "Diamond Princess",
+  "covid_confirmed": "712",
+  "covid_deaths": "13",
+  "covid_recovered": "645",
+  "covid19_first_date": "2020-03-25 22:00:00"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5c1"
+  },
+  "country": "Djibouti",
+  "covid_confirmed": "1072",
+  "covid_deaths": "2",
+  "covid_recovered": "498",
+  "covid19_first_date": "2020-03-18 22:00:00",
+  "flu_death_rate_per_10000": "98.96",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "9.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5c2"
+  },
+  "country": "Dominica",
+  "covid_confirmed": "16",
+  "covid_deaths": "0",
+  "covid_recovered": "13",
+  "covid19_first_date": "2020-03-22 22:00:00",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "36.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5c3"
+  },
+  "country": "Dominican Republic",
+  "covid_confirmed": "6416",
+  "covid_deaths": "286",
+  "covid_recovered": "1165",
+  "covid19_first_date": "2020-03-01 22:00:00",
+  "flu_death_rate_per_10000": "23.83",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "491.0",
+  "h1n1_Deaths_confirmed": "23.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5c4"
+  },
+  "country": "Ecuador",
+  "covid_confirmed": "24258",
+  "covid_deaths": "871",
+  "covid_recovered": "1557",
+  "covid19_first_date": "2020-03-01 22:00:00",
+  "flu_death_rate_per_10000": "38.7",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "2251.0",
+  "h1n1_Deaths_confirmed": "200.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5c5"
+  },
+  "country": "Egypt",
+  "covid_confirmed": "5042",
+  "covid_deaths": "359",
+  "covid_recovered": "1304",
+  "covid19_first_date": "2020-02-14 22:00:00",
+  "flu_death_rate_per_10000": "29.13",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "15812.0",
+  "h1n1_Deaths_confirmed": "278.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5c6"
+  },
+  "country": "El Salvador",
+  "covid_confirmed": "345",
+  "covid_deaths": "8",
+  "covid_recovered": "97",
+  "covid19_first_date": "2020-03-19 22:00:00",
+  "flu_death_rate_per_10000": "42.07",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "834.0",
+  "h1n1_Deaths_confirmed": "33.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5c7"
+  },
+  "country": "Equatorial Guinea",
+  "covid_confirmed": "315",
+  "covid_deaths": "1",
+  "covid_recovered": "9",
+  "covid19_first_date": "2020-03-15 22:00:00"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5c8"
+  },
+  "country": "Eritrea",
+  "covid_confirmed": "39",
+  "covid_deaths": "0",
+  "covid_recovered": "19",
+  "covid19_first_date": "2020-03-21 22:00:00",
+  "flu_death_rate_per_10000": "106.78"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5c9"
+  },
+  "country": "Estonia",
+  "covid_confirmed": "1660",
+  "covid_deaths": "50",
+  "covid_recovered": "240",
+  "covid19_first_date": "2020-02-27 22:00:00",
+  "flu_death_rate_per_10000": "10.18",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "738.0",
+  "h1n1_Deaths_confirmed": "21.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ca"
+  },
+  "country": "Eswatini",
+  "covid_confirmed": "71",
+  "covid_deaths": "1",
+  "covid_recovered": "10",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "101.17",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "5.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5cb"
+  },
+  "country": "Ethiopia",
+  "covid_confirmed": "126",
+  "covid_deaths": "3",
+  "covid_recovered": "50",
+  "covid19_first_date": "2020-03-13 22:00:00",
+  "flu_death_rate_per_10000": "86.8",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "19.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5cc"
+  },
+  "country": "Fiji",
+  "covid_confirmed": "18",
+  "covid_deaths": "0",
+  "covid_recovered": "12",
+  "covid19_first_date": "2020-03-19 22:00:00",
+  "flu_death_rate_per_10000": "40.02",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "234.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5cd"
+  },
+  "country": "Finland",
+  "covid_confirmed": "4740",
+  "covid_deaths": "199",
+  "covid_recovered": "2800",
+  "covid19_first_date": "2020-01-29 21:00:00",
+  "flu_death_rate_per_10000": "2.91",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "6122.0",
+  "h1n1_Deaths_confirmed": "56.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ce"
+  },
+  "country": "France",
+  "covid_confirmed": "169053",
+  "covid_deaths": "23694",
+  "covid_recovered": "47775",
+  "covid19_first_date": "2020-01-24 12:00:00",
+  "flu_death_rate_per_10000": "14.1",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1980000.0",
+  "h1n1_Deaths_confirmed": "344.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5cf"
+  },
+  "country": "Gabon",
+  "covid_confirmed": "238",
+  "covid_deaths": "3",
+  "covid_recovered": "53",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "97.67",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "4.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5d0"
+  },
+  "country": "Gambia",
+  "covid_confirmed": "10",
+  "covid_deaths": "1",
+  "covid_recovered": "8",
+  "covid19_first_date": "2020-03-22 22:00:00",
+  "flu_death_rate_per_10000": "154.66"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5d1"
+  },
+  "country": "Georgia",
+  "covid_confirmed": "511",
+  "covid_deaths": "6",
+  "covid_recovered": "168",
+  "covid19_first_date": "2020-02-26 22:00:00",
+  "flu_death_rate_per_10000": "10.24",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1300.0",
+  "h1n1_Deaths_confirmed": "33.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5d2"
+  },
+  "country": "Germany",
+  "covid_confirmed": "159912",
+  "covid_deaths": "6314",
+  "covid_recovered": "117400",
+  "covid19_first_date": "2020-01-27 20:30:00",
+  "flu_death_rate_per_10000": "10.86",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "222360.0",
+  "h1n1_Deaths_confirmed": "258.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5d3"
+  },
+  "country": "Ghana",
+  "covid_confirmed": "1671",
+  "covid_deaths": "16",
+  "covid_recovered": "188",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "144.64",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "676.0",
+  "h1n1_Deaths_confirmed": "3.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5d4"
+  },
+  "country": "Greece",
+  "covid_confirmed": "2566",
+  "covid_deaths": "138",
+  "covid_recovered": "577",
+  "covid19_first_date": "2020-02-26 22:00:00",
+  "flu_death_rate_per_10000": "11.16",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "17977.0",
+  "h1n1_Deaths_confirmed": "149.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5d5"
+  },
+  "country": "Grenada",
+  "covid_confirmed": "19",
+  "covid_deaths": "0",
+  "covid_recovered": "10",
+  "covid19_first_date": "2020-03-22 22:00:00",
+  "flu_death_rate_per_10000": "86.5",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "20.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5d6"
+  },
+  "country": "Guatemala",
+  "covid_confirmed": "530",
+  "covid_deaths": "15",
+  "covid_recovered": "49",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "66.66",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1170.0",
+  "h1n1_Deaths_confirmed": "24.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5d7"
+  },
+  "country": "Guinea",
+  "covid_confirmed": "1240",
+  "covid_deaths": "7",
+  "covid_recovered": "269",
+  "covid19_first_date": "2020-03-13 22:00:00",
+  "flu_death_rate_per_10000": "144.82",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "3.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5d8"
+  },
+  "country": "Guinea-Bissau",
+  "covid_confirmed": "73",
+  "covid_deaths": "1",
+  "covid_recovered": "18",
+  "covid19_first_date": "2020-03-25 22:00:00",
+  "flu_death_rate_per_10000": "146.18"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5d9"
+  },
+  "country": "Guyana",
+  "covid_confirmed": "74",
+  "covid_deaths": "8",
+  "covid_recovered": "15",
+  "covid19_first_date": "2020-03-12 22:00:00",
+  "flu_death_rate_per_10000": "56.31",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "27.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5da"
+  },
+  "country": "Haiti",
+  "covid_confirmed": "76",
+  "covid_deaths": "6",
+  "covid_recovered": "8",
+  "covid19_first_date": "2020-03-20 22:00:00",
+  "flu_death_rate_per_10000": "84.39",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "91.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5db"
+  },
+  "country": "Holy See",
+  "covid_confirmed": "10",
+  "covid_deaths": "0",
+  "covid_recovered": "2",
+  "covid19_first_date": "2020-03-10 22:00:00"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5dc"
+  },
+  "country": "Honduras",
+  "covid_confirmed": "702",
+  "covid_deaths": "64",
+  "covid_recovered": "79",
+  "covid19_first_date": "2020-03-11 22:00:00",
+  "flu_death_rate_per_10000": "16.61",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "560.0",
+  "h1n1_Deaths_confirmed": "18.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5dd"
+  },
+  "country": "Hungary",
+  "covid_confirmed": "2649",
+  "covid_deaths": "291",
+  "covid_recovered": "516",
+  "covid19_first_date": "2020-03-04 22:00:00",
+  "flu_death_rate_per_10000": "6.1",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "283.0",
+  "h1n1_Deaths_confirmed": "134.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5de"
+  },
+  "country": "Iceland",
+  "covid_confirmed": "1795",
+  "covid_deaths": "10",
+  "covid_recovered": "1636",
+  "covid19_first_date": "2020-02-28 22:00:00",
+  "flu_death_rate_per_10000": "11.9",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "676.0",
+  "h1n1_Deaths_confirmed": "2.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5df"
+  },
+  "country": "India",
+  "covid_confirmed": "31324",
+  "covid_deaths": "1008",
+  "covid_recovered": "7747",
+  "covid19_first_date": "2020-01-30 21:30:00",
+  "flu_death_rate_per_10000": "64.03",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "33783.0",
+  "h1n1_Deaths_confirmed": "2024.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5e0"
+  },
+  "country": "Indonesia",
+  "covid_confirmed": "9511",
+  "covid_deaths": "773",
+  "covid_recovered": "1254",
+  "covid19_first_date": "2020-03-02 22:00:00",
+  "flu_death_rate_per_10000": "26.72",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1098.0",
+  "h1n1_Deaths_confirmed": "10.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5e1"
+  },
+  "country": "Iran",
+  "covid_confirmed": "92584",
+  "covid_deaths": "5877",
+  "covid_recovered": "72439",
+  "covid19_first_date": "2020-02-19 22:00:00",
+  "flu_death_rate_per_10000": "19.67",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "3672.0",
+  "h1n1_Deaths_confirmed": "147.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5e2"
+  },
+  "country": "Iraq",
+  "covid_confirmed": "1928",
+  "covid_deaths": "90",
+  "covid_recovered": "1319",
+  "covid19_first_date": "2020-02-23 22:00:00",
+  "flu_death_rate_per_10000": "22.66",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "2880.0",
+  "h1n1_Deaths_confirmed": "42.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5e3"
+  },
+  "country": "Ireland",
+  "covid_confirmed": "19877",
+  "covid_deaths": "1159",
+  "covid_recovered": "9233",
+  "covid19_first_date": "2020-02-29 22:00:00",
+  "flu_death_rate_per_10000": "15.91",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "3189.0",
+  "h1n1_Deaths_confirmed": "26.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5e4"
+  },
+  "country": "Israel",
+  "covid_confirmed": "15728",
+  "covid_deaths": "210",
+  "covid_recovered": "7746",
+  "covid19_first_date": "2020-02-21 22:00:00",
+  "flu_death_rate_per_10000": "21.91",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "4330.0",
+  "h1n1_Deaths_confirmed": "94.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5e5"
+  },
+  "country": "Italy",
+  "covid_confirmed": "201505",
+  "covid_deaths": "27359",
+  "covid_recovered": "68941",
+  "covid19_first_date": "2020-01-30 21:30:00",
+  "flu_death_rate_per_10000": "8.15",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "3064933.0",
+  "h1n1_Deaths_confirmed": "244.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5e6"
+  },
+  "country": "Jamaica",
+  "covid_confirmed": "364",
+  "covid_deaths": "7",
+  "covid_recovered": "29",
+  "covid19_first_date": "2020-03-11 22:00:00",
+  "flu_death_rate_per_10000": "18.29",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "191.0",
+  "h1n1_Deaths_confirmed": "7.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5e7"
+  },
+  "country": "Japan",
+  "covid_confirmed": "13736",
+  "covid_deaths": "394",
+  "covid_recovered": "1899",
+  "covid19_first_date": "2020-01-22 12:00:00",
+  "flu_death_rate_per_10000": "34.54",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "11636.0",
+  "h1n1_Deaths_confirmed": "198.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5e8"
+  },
+  "country": "Jordan",
+  "covid_confirmed": "449",
+  "covid_deaths": "8",
+  "covid_recovered": "348",
+  "covid19_first_date": "2020-03-03 22:00:00",
+  "flu_death_rate_per_10000": "22.75",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "3033.0",
+  "h1n1_Deaths_confirmed": "19.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5e9"
+  },
+  "country": "Kazakhstan",
+  "covid_confirmed": "3027",
+  "covid_deaths": "25",
+  "covid_recovered": "774",
+  "covid19_first_date": "2020-03-13 22:00:00",
+  "flu_death_rate_per_10000": "26.61",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "17.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ea"
+  },
+  "country": "Kenya",
+  "covid_confirmed": "374",
+  "covid_deaths": "14",
+  "covid_recovered": "124",
+  "covid19_first_date": "2020-03-13 22:00:00",
+  "flu_death_rate_per_10000": "89.41",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "417.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5eb"
+  },
+  "country": "South Korea",
+  "covid_confirmed": "10761",
+  "covid_deaths": "246",
+  "covid_recovered": "8922",
+  "covid19_first_date": "2020-01-22 12:00:00",
+  "flu_death_rate_per_10000": "19.84",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "107939.0",
+  "h1n1_Deaths_confirmed": "250.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ec"
+  },
+  "country": "Kuwait",
+  "covid_confirmed": "3440",
+  "covid_deaths": "23",
+  "covid_recovered": "1176",
+  "covid19_first_date": "2020-02-24 22:00:00",
+  "flu_death_rate_per_10000": "58.28",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "8669.0",
+  "h1n1_Deaths_confirmed": "30.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ed"
+  },
+  "country": "Kyrgyzstan",
+  "covid_confirmed": "708",
+  "covid_deaths": "8",
+  "covid_recovered": "416",
+  "covid19_first_date": "2020-03-18 22:00:00",
+  "flu_death_rate_per_10000": "11.82",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "61.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ee"
+  },
+  "country": "Laos",
+  "covid_confirmed": "19",
+  "covid_deaths": "0",
+  "covid_recovered": "7",
+  "covid19_first_date": "2020-03-24 22:00:00",
+  "flu_death_rate_per_10000": "75.1",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "242.0",
+  "h1n1_Deaths_confirmed": "1.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ef"
+  },
+  "country": "Latvia",
+  "covid_confirmed": "836",
+  "covid_deaths": "13",
+  "covid_recovered": "267",
+  "covid19_first_date": "2020-03-02 22:00:00",
+  "flu_death_rate_per_10000": "12.99",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1253.0",
+  "h1n1_Deaths_confirmed": "34.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5f0"
+  },
+  "country": "Lebanon",
+  "covid_confirmed": "717",
+  "covid_deaths": "24",
+  "covid_recovered": "145",
+  "covid19_first_date": "2020-02-21 22:00:00",
+  "flu_death_rate_per_10000": "8.57",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1838.0",
+  "h1n1_Deaths_confirmed": "5.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5f1"
+  },
+  "country": "Liberia",
+  "covid_confirmed": "141",
+  "covid_deaths": "16",
+  "covid_recovered": "45",
+  "covid19_first_date": "2020-03-16 22:00:00",
+  "flu_death_rate_per_10000": "124.54"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5f2"
+  },
+  "country": "Libya",
+  "covid_confirmed": "61",
+  "covid_deaths": "2",
+  "covid_recovered": "18",
+  "covid19_first_date": "2020-03-24 22:00:00",
+  "flu_death_rate_per_10000": "33.38",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "764.0",
+  "h1n1_Deaths_confirmed": "1.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5f3"
+  },
+  "country": "Liechtenstein",
+  "covid_confirmed": "82",
+  "covid_deaths": "1",
+  "covid_recovered": "55",
+  "covid19_first_date": "2020-03-04 22:00:00",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "5.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5f4"
+  },
+  "country": "Lithuania",
+  "covid_confirmed": "1344",
+  "covid_deaths": "44",
+  "covid_recovered": "536",
+  "covid19_first_date": "2020-02-28 22:00:00",
+  "flu_death_rate_per_10000": "11.59",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "68.0",
+  "h1n1_Deaths_confirmed": "23.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5f5"
+  },
+  "country": "Luxembourg",
+  "covid_confirmed": "3741",
+  "covid_deaths": "89",
+  "covid_recovered": "3123",
+  "covid19_first_date": "2020-02-29 22:00:00",
+  "flu_death_rate_per_10000": "12.46",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "333.0",
+  "h1n1_Deaths_confirmed": "3.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5f6"
+  },
+  "country": "Madagascar",
+  "covid_confirmed": "128",
+  "covid_deaths": "0",
+  "covid_recovered": "82",
+  "covid19_first_date": "2020-03-20 22:00:00",
+  "flu_death_rate_per_10000": "83.91",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "877.0",
+  "h1n1_Deaths_confirmed": "3.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5f7"
+  },
+  "country": "Malaysia",
+  "covid_confirmed": "5851",
+  "covid_deaths": "100",
+  "covid_recovered": "4032",
+  "covid19_first_date": "2020-01-23 12:00:00",
+  "flu_death_rate_per_10000": "74.61",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "12210.0",
+  "h1n1_Deaths_confirmed": "92.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5f8"
+  },
+  "country": "Maldives",
+  "covid_confirmed": "250",
+  "covid_deaths": "0",
+  "covid_recovered": "17",
+  "covid19_first_date": "2020-03-08 22:00:00",
+  "flu_death_rate_per_10000": "18.56",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "35.0",
+  "h1n1_Deaths_confirmed": "1.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5f9"
+  },
+  "country": "Mali",
+  "covid_confirmed": "424",
+  "covid_deaths": "24",
+  "covid_recovered": "122",
+  "covid19_first_date": "2020-03-25 22:00:00",
+  "flu_death_rate_per_10000": "79.71",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "29.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5fa"
+  },
+  "country": "Malta",
+  "covid_confirmed": "458",
+  "covid_deaths": "4",
+  "covid_recovered": "303",
+  "covid19_first_date": "2020-03-07 22:00:00",
+  "flu_death_rate_per_10000": "19.76",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "718.0",
+  "h1n1_Deaths_confirmed": "5.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5fb"
+  },
+  "country": "Mauritania",
+  "covid_confirmed": "7",
+  "covid_deaths": "1",
+  "covid_recovered": "6",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "138.44",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "15.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5fc"
+  },
+  "country": "Mauritius",
+  "covid_confirmed": "334",
+  "covid_deaths": "10",
+  "covid_recovered": "303",
+  "covid19_first_date": "2020-03-18 22:00:00",
+  "flu_death_rate_per_10000": "22.44",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "69.0",
+  "h1n1_Deaths_confirmed": "8.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5fd"
+  },
+  "country": "Mexico",
+  "covid_confirmed": "16752",
+  "covid_deaths": "1569",
+  "covid_recovered": "11423",
+  "covid19_first_date": "2020-01-23 12:00:00",
+  "flu_death_rate_per_10000": "19.52",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "70715.0",
+  "h1n1_Deaths_confirmed": "1316.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5fe"
+  },
+  "country": "Moldova",
+  "covid_confirmed": "3638",
+  "covid_deaths": "103",
+  "covid_recovered": "975",
+  "covid19_first_date": "2020-03-08 22:00:00",
+  "flu_death_rate_per_10000": "22.6",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "2524.0",
+  "h1n1_Deaths_confirmed": "46.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac5ff"
+  },
+  "country": "Monaco",
+  "covid_confirmed": "95",
+  "covid_deaths": "4",
+  "covid_recovered": "50",
+  "covid19_first_date": "2020-02-29 22:00:00",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "36.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac600"
+  },
+  "country": "Mongolia",
+  "covid_confirmed": "38",
+  "covid_deaths": "0",
+  "covid_recovered": "10",
+  "covid19_first_date": "2020-03-10 22:00:00",
+  "flu_death_rate_per_10000": "15.64",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1259.0",
+  "h1n1_Deaths_confirmed": "30.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac601"
+  },
+  "country": "Montenegro",
+  "covid_confirmed": "321",
+  "covid_deaths": "7",
+  "covid_recovered": "199",
+  "covid19_first_date": "2020-03-17 22:00:00",
+  "flu_death_rate_per_10000": "6.49",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "119.0",
+  "h1n1_Deaths_confirmed": "7.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac602"
+  },
+  "country": "Morocco",
+  "covid_confirmed": "4252",
+  "covid_deaths": "165",
+  "covid_recovered": "778",
+  "covid19_first_date": "2020-03-02 22:00:00",
+  "flu_death_rate_per_10000": "34.97",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "2890.0",
+  "h1n1_Deaths_confirmed": "64.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac603"
+  },
+  "country": "Mozambique",
+  "covid_confirmed": "76",
+  "covid_deaths": "0",
+  "covid_recovered": "12",
+  "covid19_first_date": "2020-03-22 22:00:00",
+  "flu_death_rate_per_10000": "87.67",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "57.0",
+  "h1n1_Deaths_confirmed": "2.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac604"
+  },
+  "country": "Namibia",
+  "covid_confirmed": "16",
+  "covid_deaths": "0",
+  "covid_recovered": "8",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "93.99",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "75.0",
+  "h1n1_Deaths_confirmed": "1.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac605"
+  },
+  "country": "Nepal",
+  "covid_confirmed": "54",
+  "covid_deaths": "0",
+  "covid_recovered": "16",
+  "covid19_first_date": "2020-01-25 22:00:00",
+  "flu_death_rate_per_10000": "47.23",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "172.0",
+  "h1n1_Deaths_confirmed": "3.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac606"
+  },
+  "country": "Netherlands",
+  "covid_confirmed": "38612",
+  "covid_deaths": "4582",
+  "covid_recovered": "117",
+  "covid19_first_date": "2020-02-27 22:00:00",
+  "flu_death_rate_per_10000": "14.56",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "1473.0",
+  "h1n1_Deaths_confirmed": "62.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac607"
+  },
+  "country": "New Zealand",
+  "covid_confirmed": "1474",
+  "covid_deaths": "19",
+  "covid_recovered": "1229",
+  "covid19_first_date": "2020-02-28 22:00:00",
+  "flu_death_rate_per_10000": "10.98",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "3199.0",
+  "h1n1_Deaths_confirmed": "50.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac608"
+  },
+  "country": "Nicaragua",
+  "covid_confirmed": "13",
+  "covid_deaths": "3",
+  "covid_recovered": "7",
+  "covid19_first_date": "2020-03-19 22:00:00",
+  "flu_death_rate_per_10000": "24.91",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "2172.0",
+  "h1n1_Deaths_confirmed": "11.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac609"
+  },
+  "country": "Niger",
+  "covid_confirmed": "709",
+  "covid_deaths": "31",
+  "covid_recovered": "403",
+  "covid19_first_date": "2020-03-20 22:00:00",
+  "flu_death_rate_per_10000": "165.84",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "49.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac60a"
+  },
+  "country": "Nigeria",
+  "covid_confirmed": "1532",
+  "covid_deaths": "44",
+  "covid_recovered": "255",
+  "covid19_first_date": "2020-02-28 22:00:00",
+  "flu_death_rate_per_10000": "228.17",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "11.0",
+  "h1n1_Deaths_confirmed": "2.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac60b"
+  },
+  "country": "North Macedonia",
+  "covid_confirmed": "1421",
+  "covid_deaths": "71",
+  "covid_recovered": "589",
+  "covid19_first_date": "2020-02-26 22:00:00",
+  "flu_death_rate_per_10000": "4.58"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac60c"
+  },
+  "country": "Norway",
+  "covid_confirmed": "7660",
+  "covid_deaths": "206",
+  "covid_recovered": "32",
+  "covid19_first_date": "2020-02-26 22:00:00",
+  "flu_death_rate_per_10000": "19.62",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "12654.0",
+  "h1n1_Deaths_confirmed": "29.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac60d"
+  },
+  "country": "Oman",
+  "covid_confirmed": "2131",
+  "covid_deaths": "10",
+  "covid_recovered": "364",
+  "covid19_first_date": "2020-02-24 22:00:00",
+  "flu_death_rate_per_10000": "39.11",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "6349.0",
+  "h1n1_Deaths_confirmed": "33.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac60e"
+  },
+  "country": "Pakistan",
+  "covid_confirmed": "14612",
+  "covid_deaths": "312",
+  "covid_recovered": "3233",
+  "covid19_first_date": "2020-02-26 22:00:00",
+  "flu_death_rate_per_10000": "39.45",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "253.0",
+  "h1n1_Deaths_confirmed": "25.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac60f"
+  },
+  "country": "Panama",
+  "covid_confirmed": "6021",
+  "covid_deaths": "167",
+  "covid_recovered": "455",
+  "covid19_first_date": "2020-03-10 22:00:00",
+  "flu_death_rate_per_10000": "24.46",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "813.0",
+  "h1n1_Deaths_confirmed": "12.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac610"
+  },
+  "country": "Papua New Guinea",
+  "covid_confirmed": "8",
+  "covid_deaths": "0",
+  "covid_recovered": "0",
+  "covid19_first_date": "2020-03-20 22:00:00",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "12.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac611"
+  },
+  "country": "Paraguay",
+  "covid_confirmed": "239",
+  "covid_deaths": "9",
+  "covid_recovered": "102",
+  "covid19_first_date": "2020-03-08 22:00:00",
+  "flu_death_rate_per_10000": "32.65",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "855.0",
+  "h1n1_Deaths_confirmed": "54.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac612"
+  },
+  "country": "Peru",
+  "covid_confirmed": "31190",
+  "covid_deaths": "854",
+  "covid_recovered": "9179",
+  "covid19_first_date": "2020-03-06 22:00:00",
+  "flu_death_rate_per_10000": "90.3",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "9165.0",
+  "h1n1_Deaths_confirmed": "223.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac613"
+  },
+  "country": "Philippines",
+  "covid_confirmed": "7958",
+  "covid_deaths": "530",
+  "covid_recovered": "975",
+  "covid19_first_date": "2020-01-23 12:00:00",
+  "flu_death_rate_per_10000": "115.96",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "5212.0",
+  "h1n1_Deaths_confirmed": "32.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac614"
+  },
+  "country": "Poland",
+  "covid_confirmed": "12218",
+  "covid_deaths": "596",
+  "covid_recovered": "2655",
+  "covid19_first_date": "2020-03-04 22:00:00",
+  "flu_death_rate_per_10000": "17.56",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "2024.0",
+  "h1n1_Deaths_confirmed": "181.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac615"
+  },
+  "country": "Portugal",
+  "covid_confirmed": "24322",
+  "covid_deaths": "948",
+  "covid_recovered": "1389",
+  "covid19_first_date": "2020-03-02 22:00:00",
+  "flu_death_rate_per_10000": "29.81",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "166922.0",
+  "h1n1_Deaths_confirmed": "122.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac616"
+  },
+  "country": "Qatar",
+  "covid_confirmed": "11921",
+  "covid_deaths": "10",
+  "covid_recovered": "1134",
+  "covid19_first_date": "2020-02-29 22:00:00",
+  "flu_death_rate_per_10000": "11.21",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "550.0",
+  "h1n1_Deaths_confirmed": "10.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac617"
+  },
+  "country": "Romania",
+  "covid_confirmed": "11616",
+  "covid_deaths": "663",
+  "covid_recovered": "3404",
+  "covid19_first_date": "2020-02-26 22:00:00",
+  "flu_death_rate_per_10000": "24.27",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "7006.0",
+  "h1n1_Deaths_confirmed": "122.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac618"
+  },
+  "country": "Russia",
+  "covid_confirmed": "93558",
+  "covid_deaths": "867",
+  "covid_recovered": "8456",
+  "covid19_first_date": "2020-01-31 19:00:00",
+  "flu_death_rate_per_10000": "27.61",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "25339.0",
+  "h1n1_Deaths_confirmed": "604.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac619"
+  },
+  "country": "Rwanda",
+  "covid_confirmed": "212",
+  "covid_deaths": "0",
+  "covid_recovered": "95",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "91.82",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "482.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac61a"
+  },
+  "country": "Saint Kitts and Nevis",
+  "covid_confirmed": "15",
+  "covid_deaths": "0",
+  "covid_recovered": "4",
+  "covid19_first_date": "2020-03-25 22:00:00"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac61b"
+  },
+  "country": "Saint Lucia",
+  "covid_confirmed": "15",
+  "covid_deaths": "0",
+  "covid_recovered": "15",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "32.22"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac61c"
+  },
+  "country": "Saint Vincent and the Grenadines",
+  "covid_confirmed": "15",
+  "covid_deaths": "0",
+  "covid_recovered": "8",
+  "covid19_first_date": "2020-03-14 22:00:00"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac61d"
+  },
+  "country": "San Marino",
+  "covid_confirmed": "553",
+  "covid_deaths": "41",
+  "covid_recovered": "64",
+  "covid19_first_date": "2020-02-27 22:00:00",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "5.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac61e"
+  },
+  "country": "Saudi Arabia",
+  "covid_confirmed": "20077",
+  "covid_deaths": "152",
+  "covid_recovered": "2784",
+  "covid19_first_date": "2020-03-02 22:00:00",
+  "flu_death_rate_per_10000": "49.64",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "14500.0",
+  "h1n1_Deaths_confirmed": "128.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac61f"
+  },
+  "country": "Senegal",
+  "covid_confirmed": "823",
+  "covid_deaths": "9",
+  "covid_recovered": "296",
+  "covid19_first_date": "2020-03-02 22:00:00",
+  "flu_death_rate_per_10000": "95.11",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "325.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac620"
+  },
+  "country": "Serbia",
+  "covid_confirmed": "6630",
+  "covid_deaths": "125",
+  "covid_recovered": "870",
+  "covid19_first_date": "2020-03-06 22:00:00",
+  "flu_death_rate_per_10000": "8.21",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "695.0",
+  "h1n1_Deaths_confirmed": "83.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac621"
+  },
+  "country": "Seychelles",
+  "covid_confirmed": "11",
+  "covid_deaths": "0",
+  "covid_recovered": "6",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "69.41",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "33.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac622"
+  },
+  "country": "Singapore",
+  "covid_confirmed": "14951",
+  "covid_deaths": "14",
+  "covid_recovered": "1128",
+  "covid19_first_date": "2020-01-23 12:00:00",
+  "flu_death_rate_per_10000": "70.09",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "1217.0",
+  "h1n1_Deaths_confirmed": "21.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac623"
+  },
+  "country": "Slovakia",
+  "covid_confirmed": "1384",
+  "covid_deaths": "20",
+  "covid_recovered": "423",
+  "covid19_first_date": "2020-03-06 22:00:00",
+  "flu_death_rate_per_10000": "21.91",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "955.0",
+  "h1n1_Deaths_confirmed": "56.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac624"
+  },
+  "country": "Slovenia",
+  "covid_confirmed": "1408",
+  "covid_deaths": "86",
+  "covid_recovered": "223",
+  "covid19_first_date": "2020-03-05 22:00:00",
+  "flu_death_rate_per_10000": "15.28",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "990.0",
+  "h1n1_Deaths_confirmed": "19.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac625"
+  },
+  "country": "Somalia",
+  "covid_confirmed": "528",
+  "covid_deaths": "28",
+  "covid_recovered": "19",
+  "covid19_first_date": "2020-03-16 22:00:00",
+  "flu_death_rate_per_10000": "156.01",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "2.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac626"
+  },
+  "country": "South Africa",
+  "covid_confirmed": "4996",
+  "covid_deaths": "93",
+  "covid_recovered": "2073",
+  "covid19_first_date": "2020-03-05 22:00:00",
+  "flu_death_rate_per_10000": "86.33",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "12640.0",
+  "h1n1_Deaths_confirmed": "93.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac627"
+  },
+  "country": "Spain",
+  "covid_confirmed": "232128",
+  "covid_deaths": "23822",
+  "covid_recovered": "123903",
+  "covid19_first_date": "2020-01-31 19:00:00",
+  "flu_death_rate_per_10000": "10.21",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "1538.0",
+  "h1n1_Deaths_confirmed": "300.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac628"
+  },
+  "country": "Sri Lanka",
+  "covid_confirmed": "619",
+  "covid_deaths": "7",
+  "covid_recovered": "134",
+  "covid19_first_date": "2020-01-27 20:30:00",
+  "flu_death_rate_per_10000": "24.0",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "642.0",
+  "h1n1_Deaths_confirmed": "48.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac629"
+  },
+  "country": "Sudan",
+  "covid_confirmed": "318",
+  "covid_deaths": "25",
+  "covid_recovered": "31",
+  "covid19_first_date": "2020-03-13 22:00:00",
+  "flu_death_rate_per_10000": "60.13",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "145.0",
+  "h1n1_Deaths_confirmed": "5.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac62a"
+  },
+  "country": "Suriname",
+  "covid_confirmed": "10",
+  "covid_deaths": "1",
+  "covid_recovered": "7",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "36.69",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "110.0",
+  "h1n1_Deaths_confirmed": "2.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac62b"
+  },
+  "country": "Sweden",
+  "covid_confirmed": "19621",
+  "covid_deaths": "2355",
+  "covid_recovered": "1005",
+  "covid19_first_date": "2020-01-31 19:00:00",
+  "flu_death_rate_per_10000": "15.57",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "10985.0",
+  "h1n1_Deaths_confirmed": "29.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac62c"
+  },
+  "country": "Switzerland",
+  "covid_confirmed": "29264",
+  "covid_deaths": "1699",
+  "covid_recovered": "22600",
+  "covid19_first_date": "2020-02-25 22:00:00",
+  "flu_death_rate_per_10000": "10.19",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "11221.0",
+  "h1n1_Deaths_confirmed": "18.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac62d"
+  },
+  "country": "Syria",
+  "covid_confirmed": "43",
+  "covid_deaths": "3",
+  "covid_recovered": "21",
+  "covid19_first_date": "2020-03-22 22:00:00",
+  "flu_death_rate_per_10000": "23.17",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "452.0",
+  "h1n1_Deaths_confirmed": "152.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac62e"
+  },
+  "country": "Taiwan",
+  "covid_confirmed": "429",
+  "covid_deaths": "6",
+  "covid_recovered": "307",
+  "covid19_first_date": "2020-01-23 12:00:00",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "5474.0",
+  "h1n1_Deaths_confirmed": "48.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac62f"
+  },
+  "country": "Tanzania",
+  "covid_confirmed": "299",
+  "covid_deaths": "10",
+  "covid_recovered": "48",
+  "covid19_first_date": "2020-03-16 22:00:00",
+  "flu_death_rate_per_10000": "99.87",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "770.0",
+  "h1n1_Deaths_confirmed": "1.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac630"
+  },
+  "country": "Thailand",
+  "covid_confirmed": "2938",
+  "covid_deaths": "54",
+  "covid_recovered": "2652",
+  "covid19_first_date": "2020-01-22 12:00:00",
+  "flu_death_rate_per_10000": "69.87",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "31902.0",
+  "h1n1_Deaths_confirmed": "249.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac631"
+  },
+  "country": "Timor-Leste",
+  "covid_confirmed": "24",
+  "covid_deaths": "0",
+  "covid_recovered": "6",
+  "covid19_first_date": "2020-03-22 22:00:00",
+  "flu_death_rate_per_10000": "71.87",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "7.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac632"
+  },
+  "country": "Togo",
+  "covid_confirmed": "99",
+  "covid_deaths": "6",
+  "covid_recovered": "63",
+  "covid19_first_date": "2020-03-06 22:00:00",
+  "flu_death_rate_per_10000": "155.35"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac633"
+  },
+  "country": "Trinidad and Tobago",
+  "covid_confirmed": "116",
+  "covid_deaths": "8",
+  "covid_recovered": "59",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "25.74",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "211.0",
+  "h1n1_Deaths_confirmed": "5.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac634"
+  },
+  "country": "Tunisia",
+  "covid_confirmed": "975",
+  "covid_deaths": "40",
+  "covid_recovered": "279",
+  "covid19_first_date": "2020-03-04 22:00:00",
+  "flu_death_rate_per_10000": "32.53",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1200.0",
+  "h1n1_Deaths_confirmed": "24.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac635"
+  },
+  "country": "Turkey",
+  "covid_confirmed": "114653",
+  "covid_deaths": "2992",
+  "covid_recovered": "38809",
+  "covid19_first_date": "2020-03-11 22:00:00",
+  "flu_death_rate_per_10000": "14.43",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "12316.0",
+  "h1n1_Deaths_confirmed": "656.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac636"
+  },
+  "country": "United States",
+  "covid_confirmed": "1012582",
+  "covid_deaths": "58355",
+  "covid_recovered": "115936",
+  "covid19_first_date": "2020-01-22 12:00:00",
+  "flu_death_rate_per_10000": "14.91",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "113690.0",
+  "h1n1_Deaths_confirmed": "3433.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac637"
+  },
+  "country": "Uganda",
+  "covid_confirmed": "79",
+  "covid_deaths": "0",
+  "covid_recovered": "52",
+  "covid19_first_date": "2020-03-21 22:00:00",
+  "flu_death_rate_per_10000": "97.38",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "263.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac638"
+  },
+  "country": "Ukraine",
+  "covid_confirmed": "9410",
+  "covid_deaths": "239",
+  "covid_recovered": "992",
+  "covid19_first_date": "2020-03-03 22:00:00",
+  "flu_death_rate_per_10000": "9.02",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "494.0",
+  "h1n1_Deaths_confirmed": "213.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac639"
+  },
+  "country": "United Arab Emirates",
+  "covid_confirmed": "11380",
+  "covid_deaths": "89",
+  "covid_recovered": "2181",
+  "covid19_first_date": "2020-01-29 21:00:00",
+  "flu_death_rate_per_10000": "25.54",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "125.0",
+  "h1n1_Deaths_confirmed": "6.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac63a"
+  },
+  "country": "United Kingdom",
+  "covid_confirmed": "162350",
+  "covid_deaths": "21745",
+  "covid_recovered": "813",
+  "covid19_first_date": "2020-03-11 22:00:00",
+  "flu_death_rate_per_10000": "23.01",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "28456.0",
+  "h1n1_Deaths_confirmed": "474.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac63b"
+  },
+  "country": "Uruguay",
+  "covid_confirmed": "625",
+  "covid_deaths": "15",
+  "covid_recovered": "394",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "26.73",
+  "h1n1_Cases_underestimate": "1.0",
+  "h1n1_Cases_confirmed": "550.0",
+  "h1n1_Deaths_confirmed": "33.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac63c"
+  },
+  "country": "Uzbekistan",
+  "covid_confirmed": "1939",
+  "covid_deaths": "8",
+  "covid_recovered": "992",
+  "covid19_first_date": "2020-03-15 22:00:00",
+  "flu_death_rate_per_10000": "24.69"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac63d"
+  },
+  "country": "Venezuela",
+  "covid_confirmed": "329",
+  "covid_deaths": "10",
+  "covid_recovered": "142",
+  "covid19_first_date": "2020-03-14 22:00:00",
+  "flu_death_rate_per_10000": "24.12",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "2187.0",
+  "h1n1_Deaths_confirmed": "135.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac63e"
+  },
+  "country": "Vietnam",
+  "covid_confirmed": "270",
+  "covid_deaths": "0",
+  "covid_recovered": "222",
+  "covid19_first_date": "2020-01-23 12:00:00",
+  "flu_death_rate_per_10000": "23.39",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "11186.0",
+  "h1n1_Deaths_confirmed": "58.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac63f"
+  },
+  "country": "Zambia",
+  "covid_confirmed": "95",
+  "covid_deaths": "3",
+  "covid_recovered": "42",
+  "covid19_first_date": "2020-03-18 22:00:00",
+  "flu_death_rate_per_10000": "90.0",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "726.0",
+  "h1n1_Deaths_confirmed": "0.0"
+},{
+  "_id": {
+    "$oid": "60b53c3b0d66515e60fac640"
+  },
+  "country": "Zimbabwe",
+  "covid_confirmed": "32",
+  "covid_deaths": "4",
+  "covid_recovered": "5",
+  "covid19_first_date": "2020-03-20 22:00:00",
+  "flu_death_rate_per_10000": "100.65",
+  "h1n1_Cases_underestimate": "0.0",
+  "h1n1_Cases_confirmed": "1318.0",
+  "h1n1_Deaths_confirmed": "0.0"
+}]

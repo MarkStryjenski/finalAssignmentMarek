@@ -1,0 +1,11 @@
+{
+  "country": "Afghanistan",
+  "covid_confirmed": 1828,
+  "covid_deaths": 58,
+  "covid_recovered": 228,
+  "covid19_first_date": "2020-02-24 22:00:00",
+  "flu_death_rate_per_10000": 64.21,
+  "h1n1_Cases_underestimate": 0.0,
+  "h1n1_Cases_confirmed": 853.0,
+  "h1n1_Deaths_confirmed": 17.0
+}

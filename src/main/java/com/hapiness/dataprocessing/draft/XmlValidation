@@ -1,0 +1,92 @@
+package com.hapiness.dataprocessing.xml;
+
+import com.hapiness.dataprocessing.classes.Covid19;
+import com.hapiness.dataprocessing.classes.WorldHappiness;
+import org.xml.sax.SAXException;
+
+import javax.xml.XMLConstants;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import javax.xml.validation.Validator;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class XmlValidation {
+    public static void main(String[] args) throws Exception {
+//        JAXBContext contextObj = JAXBContext.newInstance(WorldHappiness.class);
+        JAXBContext contextObj = JAXBContext.newInstance(Covid19.class);
+
+        Marshaller marshallerObj = contextObj.createMarshaller();
+        marshallerObj.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+
+        WorldHappiness ans1 = new WorldHappiness(null, "China",
+                "East Asia",
+                "5.123899937",
+                "0.025901664",
+                "5.174667358",
+                "5.073132515",
+                "9.688568115",
+                "0.798760593",
+                "69.2891922",
+                "0.898517907",
+                "-0.18142575",
+                "0.7539711",
+                "1.972316742",
+                "0.990533412",
+                "1.132080674",
+                "0.867248535",
+                "0.601605117",
+                "0.079021044",
+                "0.117255554",
+                "1.336181879");
+        Covid19 covid = new Covid19(null,
+
+                "Afghanistan",
+                "1828",
+                "58",
+                "228",
+                "2020-02-24 22:00:00",
+                "64.21",
+                "0.0",
+                "853.0",
+                "17.0"
+
+        );
+
+//        marshallerObj.marshal(covid, new FileOutputStream("src\\main\\java\\com\\hapiness\\dataprocessing\\xml\\xmlTest.xml"));
+
+        //Since all the xml files are correct there will be no error message.
+        //If you change for example: covid_deaths in covid19.xml to string you will get error that input is invalid
+        validateXMLSchema("src\\main\\java\\com\\hapiness\\dataprocessing\\xsd\\internetUsageSchema.xsd","src\\main\\java\\com\\hapiness\\dataprocessing\\xml\\internetUsage.xml");
+        validateXMLSchema("src\\main\\java\\com\\hapiness\\dataprocessing\\xsd\\worldHappinessSchema.xsd","src\\main\\java\\com\\hapiness\\dataprocessing\\xml\\worldHappiness.xml");
+        validateXMLSchema("src\\main\\java\\com\\hapiness\\dataprocessing\\xsd\\covid19Schema.xsd","src\\main\\java\\com\\hapiness\\dataprocessing\\xml\\covid19.xml");
+    }
+
+
+    /**
+     * Used to validate xml file against xsd
+     * @param xsdPath
+     * @param xmlPath
+     * @return true if file is valid
+     */
+    public static boolean validateXMLSchema(String xsdPath, String xmlPath){
+
+        try {
+            SchemaFactory factory =
+                    SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+            Schema schema = factory.newSchema(new File(xsdPath));
+            Validator validator = schema.newValidator();
+            validator.validate(new StreamSource(new File(xmlPath)));
+        } catch (IOException | SAXException e) {
+            System.out.println("Exception: "+e.getMessage());
+            return false;
+        }
+        return true;
+    }
+
+}

@@ -1,0 +1,79 @@
+package com.hapiness.dataprocessing.controller;
+
+import java.io.StringReader;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hapiness.dataprocessing.classes.Covid19;
+import com.hapiness.dataprocessing.classes.InternetUsage;
+import com.hapiness.dataprocessing.classes.WorldHappiness;
+import com.hapiness.dataprocessing.repositories.InternetUsageRepository;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.client.RestTemplate;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
+import javax.xml.ws.Response;
+
+@Controller
+public class GraphController {
+
+
+    @GetMapping("/displayBarGraph")
+    public String barGraph(Model model) throws JAXBException {
+        Map<String, Double> country = new LinkedHashMap<>();
+        Map<String, String> countryNameMap = new LinkedHashMap<>();
+
+        String countryName = "China";
+        final String uriInternetUsage = "http://localhost:8080//internetUsage/country/" + countryName;
+        final String uriHappiness = "http://localhost:8080//worldHappiness/country/" + countryName;
+        final String uriCovid = "http://localhost:8080//covid/country/" + countryName;
+//
+        RestTemplate restTemplateHappiness = new RestTemplate();
+        RestTemplate restTemplateInternet = new RestTemplate();
+        RestTemplate restTemplateCovid = new RestTemplate();
+
+
+        String stringResult = restTemplateInternet.getForObject(uriInternetUsage, String.class);
+
+        InternetUsage internetUsage = restTemplateInternet.getForObject(uriInternetUsage, InternetUsage.class);
+        WorldHappiness worldHappiness = restTemplateHappiness.getForObject(uriHappiness, WorldHappiness.class);
+        Covid19 covid19 = restTemplateCovid.getForObject(uriCovid, Covid19.class);
+
+        Double ladderScore = Double.parseDouble(worldHappiness.getLadderScore());
+        Double freedomToMakeLifeChoices = Double.parseDouble(worldHappiness.getFreedomToMakeLifeChoices());
+        Double worldRankInternetUsage = Double.parseDouble(internetUsage.getWorldRank());
+        assert covid19 != null;
+        Double countryFluPneumonia = Double.parseDouble(covid19.getFlu_pneumonia_death_rate_per_1());
+
+//        JAXBContext jaxbContext;
+//        jaxbContext = JAXBContext.newInstance(InternetUsage.class);
+//
+//        Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+//
+//        InternetUsage internetUsage = (InternetUsage) jaxbUnmarshaller.unmarshal(new StringReader(stringResult));
+//        System.out.println(internetUsage.getCountryOrArea());
+
+        countryNameMap.put("countryName", countryName);
+        country.put("LadderScoreHappiness", ladderScore);
+        country.put("FreedomToMakeLifeChoices", freedomToMakeLifeChoices);
+        country.put("WorldRankInInternetUsage", worldRankInternetUsage);
+        country.put("countryFluPneumoniaDeaths by 10000", countryFluPneumonia);
+//        country.put(".Net", 15);
+        model.addAttribute("country", country);
+        model.addAttribute("countryNameMap", countryNameMap);
+        return "barGraph";
+    }
+
+    @GetMapping("/displayPieChart")
+    public String pieChart(Model model) {
+        model.addAttribute("pass", 50);
+        model.addAttribute("fail", 50);
+        return "pieChart";
+    }
+
+}

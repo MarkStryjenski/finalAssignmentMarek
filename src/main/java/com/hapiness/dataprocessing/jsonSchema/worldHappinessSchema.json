@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JSON Schema for World Happiness 2020",
+  "description": "World Happiness around the world.",
+  "type": "object",
+  "properties": {
+    "countryName": {
+      "type": "string"
+    },
+    "regionalIndicator": {
+      "type": "string"
+    },
+    "ladderScore": {
+      "type": "number",
+      "description": "ladderScore for the country compared to others."
+    },
+    "standardErrorOfLadderScore": {
+      "type": "number",
+      "description": "standardErrorOfLadderScore for the country."
+    },
+    "upperWhisker": {
+      "type": "number",
+      "description": "upperWhisker for the country."
+    },
+    "lowerWhisker": {
+      "type": "number",
+      "description": "lowerWhisker for the country."
+    },
+    "loggedGDPPerCapita": {
+      "type": "number",
+      "description": "loggedGDPPerCapita for the country."
+    },
+    "socialSupport": {
+      "type": "number",
+      "description": "socialSupport for the country."
+    },
+    "healthyLifeExpectancy": {
+      "type": "number",
+      "description": "healthyLifeExpectancy for the country."
+    },
+    "freedomToMakeLifeChoices": {
+      "type": "number",
+      "description": "freedomToMakeLifeChoices for the country."
+    },
+    "generosity": {
+      "type": "number",
+      "description": "generosity of the country."
+    },
+    "perceptionsOfCorruption": {
+      "type": "number",
+      "description": "perceptionsOfCorruption for the country."
+    },
+    "ladderScoreInDystopia": {
+      "type": "number",
+      "description": "ladderScoreInDystopia for the country."
+    },
+    "explainedByLogGDPPerCapita": {
+      "type": "number",
+      "description": "explainedByLogGDPPerCapita of the country."
+    },
+    "explainedBySocialSupport": {
+      "type": "number",
+      "description": "explainedBySocialSupport for the country."
+    },
+    "explainedByHealthyLifeExpectancy": {
+      "type": "number",
+      "description": "explainedByHealthyLifeExpectancy for the country."
+    },
+    "explainedByFreedomToMakeLifeChoices": {
+      "type": "number",
+      "description": "explainedByFreedomToMakeLifeChoices for the country."
+    },
+    "explainedByGenerosity": {
+      "type": "number",
+      "description": "explainedByGenerosity for the country."
+    },
+    "explainedByPerceptionsOfCorruption": {
+      "type": "number",
+      "description": "explainedByPerceptionsOfCorruption for the country."
+    },
+    "dystopiaResidual": {
+      "type": "number",
+      "description": "dystopiaResidual for the country."
+    },"version": {
+      "enum": [
+        "1.0",
+        "1.1"
+      ]
+    }
+  },
+  "required": [
+    "countryName",
+    "regionalIndicator",
+    "ladderScore",
+    "standardErrorOfLadderScore",
+    "upperWhisker",
+    "lowerWhisker",
+    "loggedGDPPerCapita",
+    "socialSupport",
+    "healthyLifeExpectancy",
+    "freedomToMakeLifeChoices",
+    "generosity",
+    "perceptionsOfCorruption",
+    "ladderScoreInDystopia",
+    "explainedByLogGDPPerCapita",
+    "explainedBySocialSupport",
+    "explainedByHealthyLifeExpectancy",
+    "explainedByFreedomToMakeLifeChoices",
+    "explainedByGenerosity",
+    "explainedByPerceptionsOfCorruption",
+    "dystopiaResidual"
+  ]
+}

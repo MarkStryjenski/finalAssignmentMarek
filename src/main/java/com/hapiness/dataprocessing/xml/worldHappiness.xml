@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WorldHappinessWorld>
+    <worldHappiness>
+        <countryName>China</countryName>
+        <dystopiaResidual>1.336181879</dystopiaResidual>
+        <explainedByFreedomToMakeLifeChoices>0.601605117</explainedByFreedomToMakeLifeChoices>
+        <explainedByGenerosity>0.079021044</explainedByGenerosity>
+        <explainedByHealthyLifeExpectancy>0.867248535</explainedByHealthyLifeExpectancy>
+        <explainedByLogGDPPerCapita>0.990533412</explainedByLogGDPPerCapita>
+        <explainedByPerceptionsOfCorruption>0.117255554</explainedByPerceptionsOfCorruption>
+        <explainedBySocialSupport>1.132080674</explainedBySocialSupport>
+        <freedomToMakeLifeChoices>0.898517907</freedomToMakeLifeChoices>
+        <generosity>-0.18142575</generosity>
+        <healthyLifeExpectancy>69.2891922</healthyLifeExpectancy>
+        <ladderScore>5.123899937</ladderScore>
+        <ladderScoreInDystopia>1.972316742</ladderScoreInDystopia>
+        <loggedGDPPerCapita>9.688568115</loggedGDPPerCapita>
+        <lowerWhisker>5.073132515</lowerWhisker>
+        <perceptionsOfCorruption>0.7539711</perceptionsOfCorruption>
+        <regionalIndicator>East Asia</regionalIndicator>
+        <socialSupport>0.798760593</socialSupport>
+        <standardErrorOfLadderScore>0.025901664</standardErrorOfLadderScore>
+        <upperWhisker>5.174667358</upperWhisker>
+    </worldHappiness>
+</WorldHappinessWorld>

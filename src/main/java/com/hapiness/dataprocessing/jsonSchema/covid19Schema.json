@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JSON Schema for Covid19 in 2020",
+  "description": "Covid19 stats for 2020",
+  "type": "object",
+  "properties": {
+    "country": {
+      "type": "string"
+    },
+    "covid_confirmed": {
+      "type": "integer"
+    },
+    "covid_deaths": {
+      "type": "integer"
+    },
+    "covid_recovered": {
+      "type": "integer"
+    },
+    "covid19_first_date": {
+      "type": "string"
+    },
+    "flu_death_rate_per_10000": {
+      "type": "number"
+    },
+    "h1n1_Cases_underestimate": {
+      "type": "number"
+    },
+    "h1n1_Cases_confirmed": {
+      "type": "number"
+    },
+    "h1n1_Deaths_confirmed": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "country",
+    "covid_confirmed",
+    "covid_deaths",
+    "covid_recovered",
+    "covid19_first_date",
+    "flu_death_rate_per_10000",
+    "h1n1_Cases_underestimate",
+    "h1n1_Cases_confirmed",
+    "h1n1_Deaths_confirmed"
+  ]
+}
